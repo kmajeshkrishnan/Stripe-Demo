@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: backpedal70-hasura
+  data: null
+  kubeContext: backpedal70
+  name: backpedal70
